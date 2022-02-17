@@ -1,0 +1,110 @@
+1st Iteration:
+
+	Step-1
+
+		Post(Post_id, Text, Published_date)
+		Group(Group_id, Group_name)
+		Skill(Skill_id, Skill_name)
+		Department(Dept_id, Dept_name)
+		University(Uni_id, Uni_name, Address)
+		Course(Course_id, Course_name)
+		Moodle_Course(MCourse_id)
+
+	Step-2
+
+		Project(MCourse_id, Project_id, Project_name)
+
+	Step-3
+
+		Moodle_Course(…, Course_id)
+
+	Step-4
+
+		Post(…, Group_id)
+		Department(…, Uni_id)
+		Course(…, Dept_id)
+
+	Step-5
+	-
+	Step-6
+	-
+	Step-7
+	-
+	Step-8
+	-
+	Step-9
+
+		User(User_id, Username, Created_date, Post_number, Address, Mail)
+		Member(Ssn, BDate, Sex, FName, LName, User_id)
+		Company(Comp_id, Comp_name, Sector, User_id)
+
+2nd Iteration:
+
+	Step-1
+	-
+	Step-2
+
+		Job_Advert(Comp_id, Advert_id, Working_type, Advert_name, Advert_time)
+
+	Step-3
+	-
+	Step-4
+
+		Post(…, User_id)
+		Group(…, User_id, Created_date)
+
+	Step-5
+
+		Message(Sender_Ssn, Reciever_Ssn,Text)
+		Like_Post(User_id, Post_id)
+		Comment_Post(User_id, Post_id, Context)
+		Comm_Member(User_id, Group_id)
+		Connection(User_id_from, User_id_to, is_confirm)
+
+	Step-6
+	-
+	Step-7
+
+		Skill_Endorse(Approved_Ssn, Approver_Ssn, Skill_id)
+
+	Step-8
+
+		Member(…, Member_type)
+		Employee(Ssn, Salary)
+		İnstructor(Ssn, Ins_type)
+		Student(Ssn, Start_year, GPA)
+
+	Step-9
+	-
+
+3rd Iteration:
+
+	Step-1
+	-
+	Step-2
+	-
+	Step-3
+
+		Department(…, Instructor_Ssn)
+
+	Step-4
+
+		Student(…, Department_id, Ins_Ssn)
+		Project(…, Ins_Ssn)
+		Course(…, Ins_Ssn)
+		Instructor(…, Dept_id)
+
+	Step-5
+
+		Exp_on(Emp_Ssn, Comp_id, Start_date, Role, End_date)
+		Job_App(Comp_id, Advert_id, Student_Ssn, App_date)
+		Do_Project(Student_Ssn, MCourse_id, Project_id, Grade)
+		Take_Course(Student_Ssn, Course_id)
+
+	Step-6
+	-
+	Step-7
+	-
+	Step-8
+	-
+	Step-9

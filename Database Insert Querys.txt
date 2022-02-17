@@ -1,0 +1,415 @@
+INSERT INTO users(
+	user_id, user_name, mail, address, created_date, post_number)
+	VALUES (999999999, 'Emrehan Arıkmert', 'emrehan.arikmert@gmail.com', 'Bornova/İzmir', '2021-12-05', 6),
+	 (999999998, 'Sinan Döşeyici', 'sinan.doseyici@gmail.com', 'Bornova/İzmir', '2022-01-11', 4),
+	 (999999997, 'Caner Kurtcephe', 'caner.kurtcephe@gmail.com', 'Bornova/İzmir', '2022-01-15',5),
+	 (999999996, 'İrem Kaya', 'irem.kaya@gmail.com', 'Bornova/İzmir', '2021-12-05', 2),
+	 (999999995, 'Melisa Erdem', 'melisa.erdem@gmail.com', 'Bornova/İzmir', '2021-11-08', 3),
+	 (999999994, 'Ayhan Gümüşay', 'ayhan.gumusay@gmail.com', 'Kadıköy/İstanbul', '2021-02-05', 6),
+	 (999999993, 'Beren Kulaç', 'beren.kulac@gmail.com', 'Bornova/İzmir', '2021-08-06', 2),
+	 (999999992, 'Ela Uçar', 'ela.ucar@gmail.com', 'Kadıköy/İstanbul', '2021-10-11', 4),
+	 (999999991, 'Serdar Karakum', 'serdar.karakum@gmail.com', 'Beşiktaş/İstanbul', '2022-01-05', 2),
+	 (999999990, 'Ayça Yılmaz', 'ayca.yilmaz@gmail.com', 'Urla/İzmir', '2021-05-22', 3),
+	 (999999989, 'Ayhan Yıldırım', 'ayhan.yildirim@gmail.com', 'Urla/İzmir', '2021-06-18', 1),
+	 (999999988, 'Buse Öner', 'buse.oner@gmail.com', 'Beşiktaş/İstanbul', '2021-11-09', 1),
+	 (999999987, 'Berna Çağdaş', 'berna.cagdas@gmail.com', 'Beşiktaş/İstanbul', '2021-01-03', 1),
+	 (999999986, 'Rasim Sezgi', 'rasim.sezgi@gmail.com', 'Beşiktaş/İstanbul', '2020-10-02', 1),
+	 
+	 (999999985, 'Emre Serbest', 'emre.serbest@gmail.com', 'Bornova/İzmir', '2022-01-11', 4),
+	 (999999984, 'Fatma Çakmak', 'fatma.cakmak@gmail.com', 'Bornova/İzmir', '2022-01-15',5),
+	 (999999983, 'Çağatay Kurucu', 'cagatay.kurucu@gmail.com', 'Bornova/İzmir', '2021-12-05', 2),
+	 (999999982, 'Betül Çadır', 'betul.cadir@gmail.com', 'Bornova/İzmir', '2021-11-08', 3),
+	 (999999981, 'Emre Bozok', 'emre.bozok@gmail.com', 'Kadıköy/İstanbul', '2021-02-05', 6),
+	 (999999980, 'Aleyna Çelik', 'aleyna.celik@gmail.com', 'Bornova/İzmir', '2021-08-06', 2),
+	 (999999979, 'Taha Varol', 'taha.varol@gmail.com', 'Kadıköy/İstanbul', '2021-10-11', 4),
+	 (999999978, 'Zeynep Bastık', 'zeynep.bastik@gmail.com', 'Beşiktaş/İstanbul', '2022-01-05', 2),
+	 (999999976, 'Talha Demirci', 'talha.demirci@gmail.com', 'Urla/İzmir', '2021-05-22', 3),
+	 (999999975, 'Ayyüce Yıldız', 'ayyuce.yildiz@gmail.com', 'Urla/İzmir', '2021-06-18', 1),
+	 (999999974, 'Eyüp Kurnaz', 'eyup.kurnaz@gmail.com', 'Beşiktaş/İstanbul', '2021-11-09', 1),
+	 (999999973, 'Ayça Er', 'ayca.er@gmail.com', 'Beşiktaş/İstanbul', '2021-01-03', 1),
+	 (999999972, 'Mehmet Çan', 'mehmet.can@gmail.com', 'Beşiktaş/İstanbul', '2020-10-02', 1),
+	 (999999971, 'Gizem Aldatmaz', 'gizem.aldatmaz@gmail.com', 'Kadıköy/İstanbul', '2021-10-11', 4),
+	 (999999970, 'Halil Varol', 'halil.varol@gmail.com', 'Beşiktaş/İstanbul', '2022-01-05', 2),
+	 (999999969, 'Nurcan Parlak', 'nurcan.parlak@gmail.com', 'Urla/İzmir', '2021-05-22', 3),
+	 (999999968, 'Erdem Zor', 'erdem.zor@gmail.com', 'Urla/İzmir', '2021-06-18', 1),
+	 (999999967, 'Zehra Bozkurt', 'zehra.bozkurt@gmail.com', 'Beşiktaş/İstanbul', '2021-11-09', 1),
+	 (999999966, 'İbrahim Şengül', 'ibrahim.sengul@gmail.com', 'Beşiktaş/İstanbul', '2021-01-03', 1),
+	 (999999965, 'Halide Sapıtmaz', 'halide.sapitmaz@gmail.com', 'Beşiktaş/İstanbul', '2020-10-02', 1),
+	 (999999964, 'Adem Elma', 'adem.elma@gmail.com', 'Beşiktaş/İstanbul', '2021-01-03', 1),
+	 
+	 
+ 	 (000000001, 'Murat Osman Ünalır', 'unalir@gmail.com', 'Bornova/İzmir', '2015-03-12', 150),
+	 (000000002, 'Emine Sezer', 'emine.szr@gmail.com', 'Bornova/İzmir', '2017-01-12', 72),
+	 (000000003, 'Levent Toker', 'leven.toker@gmail.com', 'Bornova/İzmir', '2013-01-02', 80),
+	 (000000004, 'Vecdi Aytaç', 'vecdi.aytac@gmail.com', 'Bornova/İzmir', '2015-04-22', 50),
+	 (000000005, 'Aybars Uğur', 'aybars.ugur@gmail.com', 'Bornova/İzmir', '2017-01-12', 110),
+	 (000000006, 'Aylin Kantarcı', 'aylin.kantarci@gmail.com', 'Bornova/İzmir', '2016-01-12', 63),
+	 (000000007, 'Birol Çiloğlugil', 'birol.ciloglugil@gmail.com', 'Bornova/İzmir', '2016-04-25', 41),
+	 (000000008, 'Beste Kaysı', 'beste.kaysi@gmail.com', 'Bornova/İzmir', '2017-07-22', 26),
+	 (000000009, 'Sezercan Tanışman', 'sezercan.tanisman@gmail.com', 'Bornova/İzmir', '2016-08-07', 33),
+	 (000000010, 'Anıl Güven', 'anil.guven@gmail.com', 'Bornova/İzmir', '2018-07-04', 35),
+	 (000000011, 'Okan Bursa', 'okan.bursa@gmail.com', 'Bornova/İzmir', '2018-04-11', 34),
+	 (000000012, 'Şebnem Bora', 'sebnem.bora@gmail.com', 'Bornova/İzmir', '2013-11-12', 66),
+	 (000000013, 'Murat Şimşek', 'murat.simsek@gmail.com', 'Beşiktaş/İstanbul', '2014-04-17', 24),
+	 (000000014, 'Selinay Altuğ', 'selinay.altug@gmail.com', 'Beşiktaş/İstanbul', '2014-05-15', 72),
+	 (000000015, 'Sevinç Aydoğdu', 'sevinc.aydogdu@gmail.com', 'Kadıköy/İstanbul', '2015-07-08', 28),
+	 (000000016, 'Mustafa Cihan', 'mustafa.cihan@gmail.com', 'Kadıköy/İstanbul', '2016-06-12', 82),
+ 	 (100000001, 'Mark Zuckerberg', 'mark.zuckerberg@gmail.com', 'Queens-New York', '2009-10-21', 70),
+	 (200000001, 'Joe Green', 'joe.green@gmail.com', 'Alpine-California', '2014-08-27', 12);
+
+INSERT INTO connections(
+	user_id_from, user_id_to, is_confirm)
+	VALUES (999999999,999999998,true),
+	(999999999,999999997,true),
+	(999999998,999999997,true),
+	(999999996,999999997,true),
+	(999999995,999999997,true),
+	(999999994,999999997,true),
+	(999999993,999999997,false),
+	(999999998,999999996,true),
+	(999999998,999999995,false),
+	(999999998,999999994,true),
+	(999999997,999999999,false),
+	(999999996,999999999,true),
+	(999999995,999999994,true),
+	(999999999,999999993,true),
+	(999999999,999999995,false);
+
+INSERT INTO linkedin_groups(
+	group_id, group_name, host_user_id, created_date)
+	VALUES (0001, 'Ege University Job Network', 000000001, '2022-01-01'),
+	(0003, 'Bogazici University', 000000014, '2020-07-17'),
+	(0004, 'Marmara University', 000000016, '2021-09-11'),
+	(0005, 'Facebook', 100000001, '2015-08-18'),
+	(0006, 'Elektrik Severler', 000000002, '2021-11-19'),
+	(0007, 'IEEE', 000000015, '2022-02-01');
+
+INSERT INTO group_members(
+	group_id, user_id)
+	VALUES (0001, 000000001),
+		(0003, 000000014),
+		(0004, 000000016),
+		(0005, 100000001),
+		(0006, 000000002),
+		(0007, 000000015),
+		(0001, 999999999),
+		(0001, 999999998),
+		(0001, 999999997),
+		(0004, 999999992),
+		(0004, 999999991),
+		(0006, 999999993),
+		(0006, 999999996),
+		(0006, 999999998);
+
+INSERT INTO linkedin_posts(
+	post_id, post_text, publish_date, group_id, host_user_id)
+	VALUES (00001, 'Trendyol ile buluşuyoruz.' , '2021-12-03', 0001, 000000001),
+		(00002, 'Yarın 15.00 te buluşuyoruz...', '2018-02-05', 0006, 000000002),
+		(00003, 'Elektrik labı 13.00 da', '2022-01-03', 0006, 000000002),
+	        (00004, 'M.U öğrencileriyle buluşuyor.' , '2022-02-03', 0004, 000000016);
+
+INSERT INTO post_likes(
+	post_id, host_user_id)
+	VALUES (00001, 999999999),
+		(00001, 999999998),
+		(00001, 999999997),
+		(00001, 999999996),
+		(00001, 999999995),
+		(00001, 999999994),
+		(00001, 999999993),
+		(00001, 999999992),
+		(00001, 999999991),
+		(00001, 999999990),
+		(00001, 999999989),
+		(00002, 999999999),
+		(00002, 999999998),
+		(00002, 999999997),
+		(00003, 999999999),
+		(00003, 999999998),
+		(00003, 999999997),
+		(00003, 999999996),
+		(00003, 999999995),
+		(00003, 999999994),
+		(00003, 999999992);
+
+INSERT INTO post_comments(
+	post_id, host_user_id, context)
+	VALUES (00001, 999999999, 'Harikaa !'),
+		(00001, 999999998, 'Çok güzell !'),
+		(00001, 999999997, 'Teşekkürler, devamını bekliyoruz.');
+INSERT INTO members(
+	ssn, bdate, sex, fname, lname, user_id, member_type)
+	VALUES (518011, '2000-01-25', 'M', 'Emrehan', 'Arıkmert', 999999999, 'Student'),
+		(518037, '2001-01-01', 'M', 'Sinan', 'Döşeyici', 999999998, 'Student'),
+		(518022, '2000-03-08', 'M', 'Caner', 'Kurtcephe', 999999997, 'Student'), 
+		(504001, '1982-02-12', 'M', 'Osman', 'Ünalır', 000000001, 'Instructor'),
+		(201001, '1990-03-15', 'M', 'Joe', 'Green', 200000001, 'Employee'),
+		(518027, '2000-02-17', 'F', 'İrem', 'Kaya', 999999996, 'Student'),
+		(518028, '2000-03-21', 'F', 'Melisa', 'Erdem', 999999995, 'Student'),
+		(518029, '2001-12-11', 'M', 'Ayhan', 'Gümüşay', 999999994, 'Student'),
+		(518030, '2001-11-15', 'F', 'Beren', 'Kulaç', 999999993, 'Student'),
+		(518031, '2000-06-05', 'F', 'Ela', 'Uçar', 999999992, 'Student'),
+		(518023, '2000-07-25', 'M', 'Serdar', 'Karakum', 999999991, 'Student'),
+		(518032, '2000-08-03', 'F', 'Ayça', 'Yılmaz', 999999990, 'Student'),
+		(518033, '2000-08-08', 'M', 'Ayhan', 'Yıldırım', 999999989, 'Student'),
+		(518034, '2001-08-11', 'F', 'Buse', 'Öner', 999999988, 'Student'),
+		(518035, '2000-07-15', 'F', 'Berna', 'Çağdaş', 999999987, 'Student'),
+		(518036, '2001-08-23', 'M', 'Rasim', 'Sezgi', 999999986, 'Student'),
+		
+		(518038, '2001-08-23', 'M', 'Emre', 'Serbest', 999999985, 'Student'),
+		(518039, '2001-08-23', 'F', 'Fatma', 'Çakmak', 999999984, 'Student'),
+		(518040, '2001-08-23', 'M', 'Çağatay', 'Kurucu', 999999983, 'Student'),
+		(518041, '2001-08-23', 'F', 'Betül', 'Çadır', 999999982, 'Student'),
+		(518042, '2001-08-23', 'M', 'Emre', 'Bozok', 999999981, 'Student'),
+		(518043, '2001-08-23', 'F', 'Aleyna', 'Çelik', 999999980, 'Student'),
+		(518044, '2001-08-23', 'M', 'Taha', 'Varol', 999999979, 'Student'),
+		(518045, '2001-08-23', 'M', 'Zeynep', 'Bastık', 999999978, 'Student'),
+		(518046, '2001-08-23', 'M', 'Talha', 'Demirci', 999999976, 'Student'),
+		(518047, '2001-08-23', 'F', 'Ayyüce', 'Yıldız', 999999975, 'Student'),
+		(518048, '2001-08-23', 'M', 'Eyüp', 'Kurnaz', 999999974, 'Student'),
+		(518049, '2001-08-23', 'F', 'Ayça', 'Er', 999999973, 'Student'),
+		(518050, '2001-08-23', 'M', 'Mehmet', 'Çan', 999999972, 'Student'),
+		(518051, '2001-08-23', 'F', 'Gizem', 'Aldatmaz', 999999971, 'Student'),
+		(518052, '2001-08-23', 'M', 'Halil', 'Varol', 999999970, 'Student'),
+		(518053, '2001-08-23', 'F', 'Zeynep', 'Bastık', 999999969, 'Student'),
+		(518054, '2001-08-23', 'M', 'Erdem', 'Zor', 999999968, 'Student'),
+		(518055, '2001-08-23', 'F', 'Zehra', 'Bozkurt', 999999967, 'Student'),
+		(518056, '2001-08-23', 'M', 'İbrahim', 'Şengül', 999999966, 'Student'),
+		(518057, '2001-08-23', 'F', 'Halide', 'Sapıtmaz', 999999965, 'Student'),
+		(518058, '2001-08-23', 'M', 'Adem', 'Elma', 999999964, 'Student'),
+		
+		(504002, '1990-05-25', 'F', 'Emine', 'Sezer', 000000002, 'Instructor'),
+		(504003, '1982-06-11', 'M', 'Levent', 'Toker', 000000003, 'Instructor'),
+		(504004, '1988-01-17', 'M', 'Vecdi', 'Aytaç', 000000004, 'Instructor'),
+		(504005, '1982-02-21', 'M', 'Aybars', 'Uğur', 000000005, 'Instructor'),
+		(504006, '1983-03-24', 'F', 'Aylin', 'Kantarcı', 000000006, 'Instructor'),
+		(504007, '1988-03-29', 'M', 'Birol', 'Çiloğlugil', 000000007, 'Instructor'),
+		(504008, '1993-04-22', 'F', 'Beste', 'Kaysı', 000000008, 'Instructor'),
+		(504009, '1992-05-02', 'M', 'Sezercan', 'Tanışman', 000000009, 'Instructor'),
+		(504010, '1991-06-01', 'M', 'Anıl', 'Güven', 000000010, 'Instructor'),
+		(504011, '1990-11-08', 'M', 'Okan', 'Bursa', 000000011, 'Instructor'),
+		(504012, '1985-12-13', 'F', 'Şebnem', 'Bora', 000000012, 'Instructor'),
+		(504013, '1982-09-12', 'M', 'Murat', 'Şimşek', 000000013, 'Instructor'),
+		(504014, '1990-10-06', 'F', 'Selinay', 'Altuğ', 000000014, 'Instructor'),
+		(504015, '1991-06-11', 'F', 'Sevinç', 'Aydoğdu', 000000015, 'Instructor'),
+		(504016, '1995-03-23', 'M', 'Mustafa', 'Cihan', 000000016, 'Instructor');
+
+INSERT INTO messages(
+	sender_ssn, receiver_ssn, m_text)
+	VALUES (518011, 518037, 'Sinan selam, meetinge katılacak mısın?'),
+		(518037, 518011, 'Selam Emrehan, katılacağım.'),
+		(518022, 518037, 'Meeting adresi: kisalink/15a27J'),
+		(518037, 518022, 'Sağol Caner'),
+		(518037, 518011, 'hatta şu da şurda dursun: kisalink/15a27J');
+
+INSERT INTO skills(
+	skill_id, skill_name)
+	VALUES (1, 'Foreign language skills'),
+		(2, 'Coding Ability'),
+		(3, 'Photoshop knowledge'),
+		(4, 'Writing proficiency'),
+		(5, 'Empathy'),
+		(6, 'Communication'),
+		(7, 'Leadership'),
+		(8, 'Time management');
+
+INSERT INTO skills_endorse(
+	skill_id, approved_ssn, approver_ssn)
+	VALUES (1, 518011, 518022),
+			(2, 518011, 518022),
+			(3, 518011, 518022),
+			(1, 518022, 518037),
+
+			(6, 518022, 518011),
+			(7, 518022, 518011),
+			(8, 518022, 518011),
+			(8, 518022, 518037),
+
+			(3, 518037, 518022),
+			(4, 518037, 518011),
+			(3, 518037, 518022),
+			(4, 518037, 518011),
+			(3, 518022, 504001),
+			(1, 518022, 504002),
+			(1, 518022, 504002),
+			(2, 518011, 504001),
+			(3, 518011, 504002),
+			(1, 518011, 504001),
+			(4, 518037, 504001),
+			(3, 518037, 504001),
+			(3, 518037, 504004),
+			(4, 518037, 504005),
+			(3, 518037, 504006);
+
+INSERT INTO companys(
+	comp_id, comp_name, sector, user_id)
+	VALUES (1, 'Facebook', 'Social Media', 100000001);
+
+INSERT INTO job_adverts(
+	comp_id, advert_id, advert_name, working_type, advert_time)
+	VALUES (1, 1, 'Database Manager Hiring', 'Part-time', '2022-01-25'),
+		(1, 2, 'Frontend Developer Hiring', 'Full-time', '2022-03-05'),
+		(1, 3, 'Backend Developer Hiring', 'Part-time', '2021-12-03'),
+		(1, 4, 'Ios Developer Hiring', 'Full-time', '2021-11-21'),
+		(1, 5, 'Android Developer Hiring', 'Internship', '2021-08-17');
+
+INSERT INTO public.employees(
+	ssn, salary)
+	VALUES (201001, 7500);
+
+INSERT INTO exp_on(
+	ssn, comp_id, start_date, end_date, comp_role)
+	VALUES (201001, 1, '2003-11-07', NULL, 'Ios Developer');
+
+INSERT INTO university(
+	uni_id, uni_name, address)
+	VALUES (1, 'Ege University', 'Bornova-İzmir'),
+		(2, 'Bogazici University', 'Beşiktaş-İstanbul'),
+		(3, 'Marmara University', 'Kadıköy-İstanbul');
+
+
+INSERT INTO departments(
+	dept_id, dept_name, uni_id)
+	VALUES (1, 'Bilgisayar Mühendisliği', 1),
+		(2, 'Makine Mühendisliği', 1),
+		(3, 'İşletme', 1),
+		(4, 'Olasılık İstatistik', 1),
+		(5, 'Güzel Sanatlar', 1),
+		(6, 'Bilgisayar Mühendisliği', 2),
+		(7, 'Makine Mühendisliği', 2),
+		(8, 'İşletme', 2),
+		(9, 'Olasılık İstatistik', 2),
+		(10, 'Matematik Mühendisliği', 2),
+		(11, 'Bilgisayar Mühendisliği', 3),
+		(12, 'Makine Mühendisliği', 3),
+		(13, 'İşletme', 3),
+		(14, 'Olasılık İstatistik', 3);
+
+INSERT INTO instructors(
+	ssn, ins_type, dept_id)
+	VALUES (504001, 'Professor', 1),
+		(504002, 'Professor', 1),
+		(504003, 'Professor', 1),
+		(504004, 'Professor', 1),
+		(504005, 'Professor', 1),
+		(504006, 'Professor', 1),
+		(504007, 'Associate Professor', 1),
+		(504008, 'Assistant', 1),
+		(504009, 'Assistant', 1),
+		(504010, 'Assistant', 1),
+		(504011, 'Associate Professor', 1),
+		(504012, 'Professor Assistant', 1),
+		(504013, 'Professor', 2),
+		(504014, 'Assistant', 6),
+		(504015, 'Professor', 11);
+
+INSERT INTO courses(
+	course_id, course_name, dept_id, ins_ssn)
+	VALUES (1, 'Database Management', 1, 504001),
+		(2, 'Electrical Circuits', 1, 504002),
+		(3, 'Network', 1, 504003),
+		(4, 'Discrete Mathematics', 1, 504004),
+		(5, 'Operating Systems', 1, 504006),
+		(6, 'Digital Computer Design', 1, 504007),
+		(7, 'Microprocessors', 1, 504012),
+		(8, 'Database Management', 6, 504014),
+		(9, 'Database Management', 11, 504015);
+
+INSERT INTO moodle_courses(
+	mcourse_id, course_id)
+	VALUES (1,1),
+		(2, 2),
+		(3, 3),
+		(4, 5),
+		(5, 6),
+		(6, 9),
+		(7, 8);
+
+INSERT INTO projects(
+	mcourse_id, project_id, project_name, ins_ssn)
+	VALUES (1, 1, 'Linkedin-Moodle', 504001),
+		(2, 2, 'Super node', 504002),
+		(3, 3, 'Star Tophology ', 504003),
+		(6, 4, 'Airport', 504015),
+		(7, 5, 'Asana', 504015),
+		(7, 8, 'Netflix', 504014);
+
+INSERT INTO students(
+	ssn, gpa, start_date, dept_id, ins_ssn)
+	VALUES (518011, 3.60, '2018-09-23', 1, 504007),
+		(518037, 3.59, '2018-09-23', 1, 504007),
+		(518022, 3.51, '2017-08-23', 1, 504007),
+		(518028, 3.8, '2017-08-23', 1, 504002),
+		(518029, 3.76, '2019-09-15', 11, 504015),
+		(518030, 3, '2018-09-23', 1, 504001),
+		(518031, 2.70, '2019-09-15', 11, 504015),
+		(518032, 2.86, '2017-09-23', 1, 504003),
+		(518033, 3.75, '2019-09-23', 1, 504003),
+		(518034, 3.59, '2018-09-23', 6, 504014),
+		(518023, 3.17, '2018-09-23', 6, 504014),
+		(518035, 2.88, '2018-09-23', 2, 504005),
+		(518036, 3.11, '2018-09-23', 2, 504006),
+		
+		(518038, 3.19, '2018-09-23', 3, 504014),
+		(518039, 3.56, '2018-09-23', 4, 504014),
+		(518040, 2.71, '2018-09-23', 4, 504014),
+		(518041, 2.49, '2018-09-23', 5, 504012),
+		(518042, 3.53, '2018-09-23', 5, 504013),
+		(518043, 2.29, '2018-09-23', 7, 504012),
+		(518044, 3.11, '2018-09-23', 7, 504013),
+		(518045, 3.22, '2018-09-23', 8, 504013),
+		(518046, 2.41, '2018-09-23', 8, 504012),
+		(518047, 3.53, '2018-09-23', 9, 504012),
+		(518048, 3.61, '2018-09-23', 9, 504013),
+		(518049, 2.59, '2018-09-15', 10, 504013),
+		(518050, 3.21, '2018-09-15', 10, 504014),
+		(518051, 3.11, '2018-09-15', 12, 504015),
+		(518052, 2.62, '2018-09-15', 12, 504014),
+		(518053, 2.56, '2018-09-15', 13, 504015),
+		(518054, 3.27, '2018-09-15', 13, 504014),
+		(518055, 3.21, '2018-09-15', 13, 504014),
+		(518056, 3.66, '2018-09-15', 14, 504014),
+		(518057, 3.27, '2018-09-15', 14, 504015),
+		(518058, 3.21, '2018-09-15', 14, 504015);
+		
+
+INSERT INTO take_courses(
+	course_id, student_ssn)
+	VALUES(1, 518011),
+		(1, 518037),
+		(1, 518022),
+		(2, 518037),
+		(3, 518011),
+		(3, 518037),
+		(3, 518022),
+		(6, 518011),
+		(8, 518034),
+		(8, 518023),
+		(9, 518029),
+		(9, 518031);
+		
+		
+		
+INSERT INTO do_projects(
+	project_id, mcourse_id, student_ssn)
+	VALUES (1, 1, 518011),
+		(1, 1, 518037),
+		(1, 1, 518022),
+		(2, 2, 518037),
+		(3, 3, 518011),
+		(3, 3, 518037),
+		(3, 3, 518022),
+		(4, 6, 518011),
+		(5, 7, 518034),
+		(5, 7, 518023);
+
+
+INSERT INTO job_apps(
+	comp_id, advert_id, student_ssn)
+	VALUES (1, 1, 518011),
+		(1, 2, 518011),
+		(1, 3, 518022),
+		(1, 4, 518022),
+		(1, 5, 518022),
+		(1, 1, 518037),
+		(1, 5, 518037);
